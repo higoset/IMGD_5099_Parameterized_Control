@@ -1,0 +1,24 @@
+{
+  "name": "imgd_5099_parameterized_control",
+  "version": "1.0.0",
+  "description": "IMGD_5099_Parameterized_Control",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js & browser-sync start --proxy 'localhost:9020' --files 'src'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higoset/IMGD_5099_Parameterized_Control.git"
+  },
+  "author": "ejcerini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/higoset/IMGD_5099_Parameterized_Control/issues"
+  },
+  "homepage": "https://github.com/higoset/IMGD_5099_Parameterized_Control#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "p5": "^0.7.2"
+  }
+}
